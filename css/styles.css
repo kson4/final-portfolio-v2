@@ -9,12 +9,14 @@ section {
   overflow: hidden;
   color: #f2f2f2;
 }
-
 section .text h2 {
   font-size: 3rem;
   padding-top: 3rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+.flex {
+  display: flex;
 }
 
 nav {
@@ -29,7 +31,7 @@ nav {
 
 /* HOME PAGE */
 #home {
-  background-image: url("../img/about.jpg");
+  background-image: url("../img/home.jpg");
   background-attachment: fixed;
   background-position: 50% 0;
   background-size: cover;
@@ -77,16 +79,69 @@ nav {
 
 /* ABOUT PAGE */
 #about {
-  background-image: url("../img/home.jpg");
+  background-image: url("../img/about.jpg");
   background-attachment: fixed;
   background-position: 25% 0%;
   background-size: cover;
 }
 #about .text p {
   margin-bottom: 1rem;
-  color: #fff;
   font-size: 1.5rem;
   background: rgba(0, 0, 0, 0.3);
   padding: 1rem;
   margin: 1rem;
+}
+
+/* SKILLS PAGE */
+#skills {
+  background-image: url("../img/skills.jpg");
+  background-attachment: fixed;
+  background-position: 0% 0%;
+  background-size: cover;
+}
+#skills .flex {
+  margin-top: 2rem;
+  flex-direction: column;
+  width: 100%;
+}
+#skills .flex .row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+#skills .flex .row div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#skills .flex .row div i {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+#skills .flex .row div img {
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+.fa-html5 {
+  color: #e34c26;
+}
+.fa-css3-alt {
+  color: #264de4;
+}
+.fa-js {
+  color: #f0db4f;
+}
+.fa-bootstrap {
+  color: #0275d8;
+}
+.fa-react {
+  color: #61dbfb;
+}
+.fa-node-js {
+  color: #215732;
+}
+#express {
+  font-size: 2rem;
 }
