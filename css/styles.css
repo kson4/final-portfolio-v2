@@ -299,6 +299,10 @@ input {
     padding-left: 15rem;
     padding-top: 12rem;
   }
+  #about .text p {
+    margin: 3rem 10rem;
+    font-size: 2rem;
+  }
   #work .work-list {
     padding: 0 10rem;
   }
