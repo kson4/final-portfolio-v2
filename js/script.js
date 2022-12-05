@@ -39,5 +39,4 @@ window.addEventListener("scroll", () => {
       3 - window.pageYOffset / clientY
     })`;
   }
-  console.log(window.pageYOffset / clientY);
 });

@@ -18,6 +18,9 @@ section .text h2 {
 .flex {
   display: flex;
 }
+a {
+  text-decoration: none;
+}
 
 nav {
   width: 100vw;
@@ -152,4 +155,95 @@ nav {
 }
 #express {
   font-size: 2rem;
+}
+
+/* BOTTOM */
+.bottom {
+  background-image: url("../img/bottom.jpg");
+  background-attachment: fixed;
+  background-position: 0% 0%;
+  background-size: cover;
+}
+
+#work {
+  color: #fff;
+  /* background-color: #000; */
+  /* border: 1px solid red; */
+  height: 70vh;
+}
+#work .work-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 10rem;
+  height: 90%;
+  /* font-size: 2.5rem; */
+}
+#work .work-list div {
+  display: flex;
+  /* align-items: center; */
+}
+#work .work-list div p {
+  font-size: 1.25rem;
+  padding-right: 0.5rem;
+}
+#work .work-list div i {
+  margin-right: 1rem;
+}
+#work .work-list a {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+/* FOR DESKTOP */
+/* #work .work-list:hover > a {
+  opacity: 0.3;
+}
+#work .work-list:hover > a:hover {
+  opacity: 1;
+} */
+
+#contact {
+  height: 70vh;
+  padding-bottom: 20%;
+}
+#contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+input {
+  width: 15rem;
+  border-radius: 3px;
+  border: none;
+  height: 1.5rem;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+#contact form button {
+  width: 4rem;
+  padding: 0.25rem 0.5rem;
+}
+
+/* FOOTER */
+#footer {
+  height: 10vh;
+  background-color: #2f2f2f;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 2rem;
+  align-items: center;
+  gap: 3rem;
+}
+#footer .socials i {
+  margin-left: 1rem;
+  color: #fff;
 }
