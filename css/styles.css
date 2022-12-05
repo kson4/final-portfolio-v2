@@ -84,6 +84,9 @@ nav {
   background-position: 25% 0%;
   background-size: cover;
 }
+#about .text {
+  height: 100%;
+}
 #about .text p {
   margin-bottom: 1rem;
   font-size: 1.5rem;
@@ -99,10 +102,15 @@ nav {
   background-position: 0% 0%;
   background-size: cover;
 }
+#skills h2 {
+  background: rgba(0, 0, 0, 1);
+}
 #skills .flex {
-  margin-top: 2rem;
+  height: 90%;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
+  background: rgba(0, 0, 0, 1);
 }
 #skills .flex .row {
   display: flex;
