@@ -179,11 +179,10 @@ nav {
   padding-left: 1rem;
   padding-bottom: 10rem;
   height: 90%;
-  /* font-size: 2.5rem; */
 }
 #work .work-list div {
   display: flex;
-  /* align-items: center; */
+  justify-content: space-between;
 }
 #work .work-list div p {
   font-size: 1.25rem;
@@ -195,6 +194,9 @@ nav {
 #work .work-list a {
   color: #fff;
   font-size: 2.5rem;
+}
+.work-git {
+  font-size: 2rem;
 }
 
 /* FOR DESKTOP */
